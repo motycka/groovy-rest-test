@@ -1,0 +1,4 @@
+rootProject.name = 'groovy-rest-test'
+include 'rest-client'
+include 'examples'
+
