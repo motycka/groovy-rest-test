@@ -13,6 +13,37 @@ this approach usually yields very complex and un-readable tests.
 This project is trying to find the sweets spot between readability and power by using a set of proven tools testing
 together with a test writing style that tries to provide as much readability as possible.
 
+### Usage
+
+**Gradle**
+```groovy
+repositories {
+	maven { url 'https://jitpack.io' }
+}
+```
+```groovy
+testCompile 'com.github.motycka:groovy-rest-test:1.0.0'
+```
+
+**Maven**
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+```xml
+<dependency>
+    <groupId>com.github.motycka</groupId>
+    <artifactId>groovy-rest-test</artifactId>
+    <version>1.0.0</version>
+    <scope>test</scope>
+</dependency>
+```
+
 
 ### Examples
 
