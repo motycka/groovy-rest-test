@@ -22,7 +22,7 @@ repositories {
 }
 ```
 ```groovy
-testCompile 'com.github.motycka:groovy-rest-test:1.0.0'
+testCompile 'com.github.motycka:groovy-rest-test:v1.0.0-beta.1'
 ```
 
 **Maven**
@@ -39,7 +39,7 @@ testCompile 'com.github.motycka:groovy-rest-test:1.0.0'
 <dependency>
     <groupId>com.github.motycka</groupId>
     <artifactId>groovy-rest-test</artifactId>
-    <version>1.0.0</version>
+    <version>v1.0.0-beta.1</version>
     <scope>test</scope>
 </dependency>
 ```
