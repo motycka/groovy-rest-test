@@ -145,7 +145,7 @@ class RestClient {
     private static typeConversion(object) {
         if (object instanceof JsonBody) {
             object.asJsonString()
-        } else if (object instanceof Map) {
+        } else if (object instanceof Map || object instanceof Collection) {
             JsonOutput.toJson(object)
         } else {
             object
